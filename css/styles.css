@@ -170,7 +170,24 @@ ul {
 }
 
 .opacity {
-  opacity: .25;
+  opacity: 0.25;
+}
+
+h4,
+h5 {
+  font-size: 14px;
+}
+
+h5 {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.maincontent {
+  padding-top: 72px;
 }
 
 /* nav */
@@ -220,6 +237,119 @@ ul {
     min-height: 30vh;
     position: relative;
   }
+}
+
+.lazy {
+  transition: 0.4s ease;
+  opacity: 0;
+  will-change: opacity;
+}
+
+.lazyLoaded {
+  opacity: 1;
+}
+
+.cover-image,
+.cover-trigger {
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.cover-header {
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  position: absolute;
+  right: 4px;
+  z-index: 3;
+}
+
+.cover h5 {
+  color: #fff;
+}
+
+.cover .post-body a strong,
+.cover a,
+.cover h1,
+.post-body a .cover strong {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cover .distraction-title,
+  .cover h2 {
+    font-size: 20px;
+  }
+}
+
+.cover .distraction-title,
+.cover h2 {
+  margin-bottom: 0.25em;
+}
+
+.distraction-title,
+h2,
+h3 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.distraction-title,
+h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+}
+
+.cover-byline li:first-child {
+  margin-left: 0;
+}
+
+.cover-byline li {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.cover-byline .post-body a strong,
+.cover-byline a,
+.post-body a .cover-byline strong {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.cover-byline li .icon {
+  scale: 0.875;
+  float: left;
+  margin-right: 4px;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+.icon--clock--light {
+  background-position: -160px -160px;
+}
+.icon {
+  display: block;
+  background: transparent
+    url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
+  background-size: 1296px 1296px;
+  background-position: 1296px 1296px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon--share--light {
+  background-position: -912px -912px;
 }
 
 /* latest */
