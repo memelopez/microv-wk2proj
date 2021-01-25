@@ -194,11 +194,11 @@ ul {
   width: 48px;
   float: left;
   border-left: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-icon i {
-  margin: 0 auto;
-}
 /* cover */
 
 /* latest */
