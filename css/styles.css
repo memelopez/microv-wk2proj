@@ -301,13 +301,13 @@ h2 {
   margin-bottom: 0.25em;
 }
 
-.cover-byline li:first-child {
-  margin-left: 0;
-}
-
 .cover-byline li {
   display: inline-block;
   margin-left: 6px;
+}
+
+.cover-byline li:first-child {
+  margin-left: 0;
 }
 
 .cover-byline .post-body a strong,
