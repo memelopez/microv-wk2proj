@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* reset */
 html,
 body,
 div,
@@ -88,9 +84,10 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,24 +102,20 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
+
 blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -136,11 +129,10 @@ table {
 }
 
 body {
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif; /*no son*/
-  line-height: 30px;
-  color: #333;
-  background-color: white;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #555;
 }
 
 a {
@@ -194,6 +186,23 @@ h3 {
   padding: 0 15px 0 15px;
 }
 
+h4,
+h5 {
+  font-size: 14px;
+}
+
+h5 {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.maincontent {
+  padding-top: 72px;
+}
+
 /* nav */
 
 .main-nav {
@@ -221,6 +230,145 @@ h3 {
 }
 
 /* cover */
+.cover {
+  margin: 0 auto;
+  padding: 4px;
+  position: relative;
+}
+
+.cover-story {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.cover article {
+  min-height: 30vh;
+  position: relative;
+}
+
+.lazy {
+  transition: 0.4s ease;
+  opacity: 0;
+  will-change: opacity;
+}
+
+.lazyLoaded {
+  opacity: 1;
+}
+
+.cover-image,
+.cover-trigger {
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.cover-header {
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  position: absolute;
+  right: 4px;
+  z-index: 3;
+}
+
+.cover h5 {
+  color: #fff;
+}
+
+.cover .post-body a strong,
+.cover a,
+.cover h1,
+.post-body a .cover strong {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cover .distraction-title,
+  .cover h2 {
+    font-size: 20px;
+  }
+}
+
+.distraction-title,
+h2,
+h3 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.distraction-title,
+h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+}
+
+.cover .distraction-title,
+.cover h2 {
+  margin-bottom: 0.25em;
+}
+
+.cover-byline li {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.cover-byline li:first-child {
+  margin-left: 0;
+}
+
+.cover-byline .post-body a strong,
+.cover-byline a,
+.post-body a .cover-byline strong {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.cover-byline li .icon {
+  scale: 0.875;
+  float: left;
+  margin-right: 4px;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+.icon--clock--light {
+  background: transparent
+    url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
+}
+
+.icon--share--light {
+  background: transparent
+    url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
+}
+
+.cover-trigger {
+  transition: background-color 0.4s ease;
+  background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+}
 
 /* latest */
 
