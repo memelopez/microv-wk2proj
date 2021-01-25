@@ -223,12 +223,10 @@ h5 {
   width: 100%;
 }
 
-/* @media (max-width: 767px) { */
 .cover article {
   min-height: 30vh;
   position: relative;
 }
-/* } */
 
 .lazy {
   transition: 0.4s ease;
