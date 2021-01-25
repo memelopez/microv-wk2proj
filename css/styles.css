@@ -152,6 +152,14 @@ ul {
   padding: 0;
 }
 
+h2 {
+  font-family: 'Avalon', sans-serif;
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  line-height: 31px;
+}
+
 .orange {
   color: #f42;
 }
@@ -162,6 +170,20 @@ ul {
 
 .opacity {
   opacity: 0.25;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+  padding: 0 15px 0 15px;
 }
 
 h4,
@@ -189,7 +211,6 @@ h5 {
   justify-content: space-between;
   height: 48px;
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
-  position: fixed;
 }
 
 .nav-logo {
@@ -331,13 +352,11 @@ h2 {
 }
 
 .icon--clock--light {
-  background: transparent
-    url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
+  background: transparent url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
 }
 
 .icon--share--light {
-  background: transparent
-    url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
+  background: transparent url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
 }
 
 .cover-trigger {
@@ -350,6 +369,43 @@ h2 {
 }
 
 /* latest */
+
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.latest-row {
+  width: 100%;
+  padding: 8px 8px;
+}
+
+.latest-container img {
+  object-fit: cover;
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin-right: 15px;
+}
+
+.caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.tittle-content {
+  height: 100%;
+  float: right;
+}
+
+h3 a:hover {
+  color: #f42;
+}
 
 /* funding */
 
