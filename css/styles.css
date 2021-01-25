@@ -1,4 +1,4 @@
-/* reset*/
+/* reset */
 html,
 body,
 div,
@@ -87,8 +87,8 @@ video {
   font-family: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -103,24 +103,15 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
 blockquote,
 q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
