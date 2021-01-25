@@ -352,13 +352,11 @@ h2 {
 }
 
 .icon--clock--light {
-  background: transparent
-    url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
+  background: transparent url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
 }
 
 .icon--share--light {
-  background: transparent
-    url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
+  background: transparent url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
 }
 
 .cover-trigger {
