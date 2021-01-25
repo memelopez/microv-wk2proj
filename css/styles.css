@@ -161,7 +161,44 @@ ul {
   padding: 0;
 }
 
+.orange {
+  color: #f42;
+}
+
+.centered {
+  text-align: center;
+}
+
+.opacity {
+  opacity: .25;
+}
+
 /* nav */
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  box-shadow: 0 0 32px rgb(0 0 0 / 15%);
+  position: fixed;
+}
+
+.nav-logo {
+  background-color: black;
+  width: 106px;
+  padding: 12px;
+}
+
+.nav-icon {
+  height: 48px;
+  width: 48px;
+  float: left;
+  border-left: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* cover */
 .cover {
