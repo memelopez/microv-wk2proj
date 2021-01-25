@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* reset*/
 html,
 body,
 div,
@@ -88,10 +84,11 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -105,17 +102,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +124,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -136,11 +138,10 @@ table {
 }
 
 body {
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif; /*no son*/
-  line-height: 30px;
-  color: #333;
-  background-color: white;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #555;
 }
 
 a {
@@ -163,6 +164,26 @@ ul {
 /* nav */
 
 /* cover */
+.cover {
+  margin: 0 auto;
+  padding: 4px;
+  position: relative;
+}
+
+.cover-story {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .cover article {
+    min-height: 30vh;
+    position: relative;
+  }
+}
 
 /* latest */
 

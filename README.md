@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project 2: Building with responsive design.
 
-> One paragraph statement about the project.
+> This project is a clone of the The Next Web (TNW).
 
 ![screenshot](./app_screenshot.png)
 
@@ -39,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Elmer Lopez**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/memelopez)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elmer-lopez-51b187200/)
 
 👤 **Author2**
 
