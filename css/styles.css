@@ -321,6 +321,7 @@ h2 {
   width: 30px;
   height: 30px;
 }
+
 .cover-byline li .icon {
   scale: 0.875;
   float: left;
@@ -330,13 +331,11 @@ h2 {
 }
 
 .icon--clock--light {
-  /* background-position: -160px -160px; */
   background: transparent
     url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
 }
 
 .icon--share--light {
-  background-position: -912px -912px;
   background: transparent
     url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
 }
