@@ -281,11 +281,6 @@ h5 {
   }
 }
 
-.cover .distraction-title,
-.cover h2 {
-  margin-bottom: 0.25em;
-}
-
 .distraction-title,
 h2,
 h3 {
@@ -299,6 +294,11 @@ h2 {
   font-family: sans-serif;
   font-size: 28px;
   letter-spacing: -0.015em;
+}
+
+.cover .distraction-title,
+.cover h2 {
+  margin-bottom: 0.25em;
 }
 
 .cover-byline li:first-child {
@@ -329,6 +329,7 @@ h2 {
   background: transparent
     url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
 }
+
 .icon {
   display: block;
   /* background-size: 1296px 1296px;
