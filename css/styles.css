@@ -1,0 +1,29 @@
+/* BASIC styles, used all throughout the page */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif; /*no son*/
+  line-height: 30px;
+  color: #333;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
