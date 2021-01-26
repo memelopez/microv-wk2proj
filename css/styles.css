@@ -217,10 +217,18 @@ h5 {
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
 }
 
+.menu-container {
+  width: 100%;
+}
+
 .nav-logo {
   background-color: black;
   width: 106px;
   padding: 12px;
+}
+
+.nav-icon-container {
+  float: right;
 }
 
 .nav-icon {
@@ -231,6 +239,60 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top-navbar {
+  height: 32px;
+  justify-content: space-between;
+  background-color: black;
+  display: none;
+}
+
+.bottom-navbar {
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom-menu {
+  display: none;
+}
+
+li {
+  display: inline;
+}
+
+@media (min-width: 760px) {
+  .main-nav {
+    height: 80px;
+  }
+
+  .nav-logo {
+    padding-top: 32px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .top-navbar {
+    display: inherit;
+  }
+
+  .bottom-navbar {
+    justify-content: space-between;
+  }
+
+  .bottom-menu {
+    display: initial;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-logo {
+    display: none;
+  }
 }
 
 /* cover */
