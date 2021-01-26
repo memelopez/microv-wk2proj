@@ -396,6 +396,8 @@ h2 {
   color: #aaa;
   line-height: 18px;
   font-weight: 400;
+  position: relative;
+  bottom: 0;
 }
 
 .tittle-content {
@@ -412,5 +414,15 @@ h3 a:hover {
 /* catalog */
 
 /* deals */
+
+.offer-text {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.caption-offer {
+  font-size: 14px;
+  color: #555;
+}
 
 /* footer */
