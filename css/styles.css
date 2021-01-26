@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 /* reset */
 html,
 body,
@@ -158,7 +160,7 @@ ul {
 }
 
 h2 {
-  font-family: "Avalon", sans-serif;
+  font-family: 'avalon', sans-serif;
   font-size: 28px;
   color: #f42;
   font-weight: 700;
@@ -238,10 +240,18 @@ summary {
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
 }
 
+.menu-container {
+  width: 100%;
+}
+
 .nav-logo {
   background-color: black;
   width: 106px;
   padding: 12px;
+}
+
+.nav-icon-container {
+  float: right;
 }
 
 .nav-icon {
@@ -252,6 +262,80 @@ summary {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top-navbar {
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  display: none;
+}
+
+.bottom-navbar {
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+
+.bottom-menu {
+  display: none;
+  font-family: 'shentox', sans-serif;
+  color: #aaa;
+  font-size: 14px;
+  font-style: normal;
+}
+
+li {
+  display: inline;
+}
+
+.bottom-menu li {
+  padding-left: 15px;
+}
+
+.top-menu li {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.bottom-menu li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+@media (min-width: 760px) {
+  .main-nav {
+    height: 80px;
+  }
+
+  .nav-logo {
+    padding-top: 32px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .top-navbar {
+    display: flex;
+  }
+
+  .bottom-navbar {
+    justify-content: space-between;
+  }
+
+  .bottom-menu {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-logo {
+    display: none;
+  }
 }
 
 /* cover */
