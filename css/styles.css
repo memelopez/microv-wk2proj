@@ -165,6 +165,10 @@ h2 {
   line-height: 31px;
 }
 
+.white {
+  color: white;
+}
+
 .orange {
   color: #f42;
 }
@@ -470,21 +474,6 @@ h3 a:hover {
   margin-bottom: 14px;
 }
 
-/* .topic h2 a::after {
-  background-image: url(
-    data:image/svg + xml;charset=utf-8,
-    <svgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"><pathfill="none"stroke="%23F42"stroke-width="3"stroke-miterlimit="10"d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>
-  );
-  background-size: 16px 16px;
-  content: "";
-  display: inline-block;
-  height: 16px;
-  margin-left: 4px;
-  position: relative;
-  top: 0;
-  width: 16px;
-} */
-
 .arrowh2-topic {
   background-image: url(https://img.icons8.com/color/48/000000/chevron-right.png);
   background-size: 16px 16px;
@@ -649,3 +638,62 @@ h3 a:hover {
 }
 
 /* footer */
+
+.main-footer {
+  height: 257px;
+}
+
+.top-footer {
+  height: 190px;
+  padding-top: 42px;
+  padding-bottom: 28px;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bottom-footer {
+  height: 97px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-color: #000;
+}
+
+.icon-circle {
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.social-center {
+  display: inherit;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: inherit;
+  width: auto;
+  margin: 0 auto;
+}
+
+.footer-links {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.link-footer {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+.caption-footer {
+  text-align: center;
+  color: white;
+  display: block;
+}
