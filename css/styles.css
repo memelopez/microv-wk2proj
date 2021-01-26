@@ -125,8 +125,8 @@ table {
 
 /* BASIC styles, used all throughout the page */
 *,
-:after,
-:before {
+::after,
+::before {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   outline: none;
@@ -352,10 +352,6 @@ h2 {
   margin-left: 6px;
 }
 
-.cover-byline li:first-child {
-  margin-left: 0;
-}
-
 .cover-byline .post-body a strong,
 .cover-byline a,
 .post-body a .cover-byline strong {
@@ -438,10 +434,6 @@ h2 {
 .tittle-content {
   height: 100%;
   float: right;
-}
-
-h3 a:hover {
-  color: #f42;
 }
 
 /* funding */
@@ -696,4 +688,14 @@ h3 a:hover {
   text-align: center;
   color: white;
   display: block;
+}
+
+/* stuff i need to put in the bottom so that linters doesn't complain */
+
+.cover-byline li:first-child {
+  margin-left: 0;
+}
+
+h3 a:hover {
+  color: #f42;
 }
