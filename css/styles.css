@@ -267,6 +267,10 @@ h5 {
   font-style: normal;
 }
 
+li {
+  display: inline;
+}
+
 .bottom-menu li {
   padding-left: 15px;
 }
@@ -274,10 +278,6 @@ h5 {
 .top-menu li {
   padding-left: 4px;
   padding-right: 4px;
-}
-
-li {  
-  display: inline;
 }
 
 .bottom-menu li:hover {
