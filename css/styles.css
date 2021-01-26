@@ -483,3 +483,10 @@ h3 a:hover {
   margin-left: 5px;
   font-family: sans-serif;
 }
+
+.caption-footer {
+  text-align: center;
+  color: white;
+  display: block;
+}
+}
