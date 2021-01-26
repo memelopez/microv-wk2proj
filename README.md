@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 2: Building with responsive design.
+# Project 2: Building with responsive design. (Milestoen 1 & Milestone 2)
 
-> This project is a clone of the The Next Web (TNW).
+> This project is a clone of the [The Next Web (TNW)](https://thenextweb.com/)
 
-![screenshot](./app_screenshot.png)
+![demo](images/screenshot.png)
 
-Additional description about the project and its features.
+Building with responsive design.
 
 ## Built With
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](#)
 
 ## Getting Started
 
@@ -24,17 +24,16 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
 ### Prerequisites
-
-### Setup
-
-### Install
+Have a compatible web browser that supports HTML5 and CSS3 in order to correctly display the website.
+A text editor in order to view and edit code. Popular text editors include VSCode and Notepad++.
 
 ### Usage
-
-### Run tests
-
-### Deployment
+Most Operative Systems have the .html file extension associated to open with your default web browser. In order to review the code, you may use your web browser inspect element option or open directly with a text editor.
 
 ## Authors
 
@@ -44,11 +43,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/elmer-lopez-51b187200/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+👤 **Kenny Ortega**
+
+- GitHub: [kensayo](https://github.com/kensayo)
+- Twitter: [@kensayo](https://twitter.com/kensayo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenny-ortega-3580aa33/)
 
 ## 🤝 Contributing
 
@@ -60,11 +60,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
