@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 /* reset */
 html,
 body,
@@ -153,7 +155,7 @@ ul {
 }
 
 h2 {
-  font-family: 'Avalon', sans-serif;
+  font-family: 'avalon', sans-serif;
   font-size: 28px;
   color: #f42;
   font-weight: 700;
@@ -244,6 +246,7 @@ h5 {
 .top-navbar {
   height: 32px;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
   display: none;
 }
@@ -253,14 +256,33 @@ h5 {
   height: 48px;
   justify-content: flex-end;
   align-items: center;
+  background-color: white;
 }
 
 .bottom-menu {
   display: none;
+  font-family: 'shentox', sans-serif;
+  color: #aaa;
+  font-size: 14px;
+  font-style: normal;
 }
 
-li {
+.bottom-menu li {
+  padding-left: 15px;
+}
+
+.top-menu li {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+li {  
   display: inline;
+}
+
+.bottom-menu li:hover {
+  color: #000;
+  cursor: pointer;
 }
 
 @media (min-width: 760px) {
@@ -277,7 +299,7 @@ li {
   }
 
   .top-navbar {
-    display: inherit;
+    display: flex;
   }
 
   .bottom-navbar {
@@ -285,7 +307,7 @@ li {
   }
 
   .bottom-menu {
-    display: initial;
+    display: inline-table;
   }
 }
 

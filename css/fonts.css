@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'avalon';
+  src: url('/fonts/Avalon_Regular.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+    font-family: 'avalon';
+    src: url('/fonts/Avalon_Bold.ttf');
+    font-style: bold;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'shentox';
+    src: url('/fonts/Shentox_Regular.ttf');
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  @font-face {
+      font-family: 'shentox';
+      src: url('/fonts/Shentox_Bold.ttf');
+      font-style: bold;
+      font-weight: 700;
+    }
+  
