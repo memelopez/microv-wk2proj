@@ -124,8 +124,13 @@ table {
 /* end of RESET */
 
 /* BASIC styles, used all throughout the page */
-* {
+*,
+::after,
+::before {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -136,8 +141,8 @@ body {
 }
 
 a {
+  color: #f42;
   text-decoration: none;
-  color: #333;
 }
 
 img {
@@ -153,7 +158,7 @@ ul {
 }
 
 h2 {
-  font-family: 'Avalon', sans-serif;
+  font-family: "Avalon", sans-serif;
   font-size: 28px;
   color: #f42;
   font-weight: 700;
@@ -205,6 +210,22 @@ h5 {
 
 .maincontent {
   padding-top: 72px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
 }
 
 /* nav */
@@ -331,10 +352,6 @@ h2 {
   margin-left: 6px;
 }
 
-.cover-byline li:first-child {
-  margin-left: 0;
-}
-
 .cover-byline .post-body a strong,
 .cover-byline a,
 .post-body a .cover-byline strong {
@@ -356,16 +373,26 @@ h2 {
 }
 
 .icon--clock--light {
-  background: transparent url(https://img.icons8.com/android/24/000000/clock.png) no-repeat;
+  background-color: transparent;
+  background-image: url(https://img.icons8.com/small/32/ffffff/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
 }
 
 .icon--share--light {
-  background: transparent url(https://img.icons8.com/android/24/000000/share.png) no-repeat;
+  background-color: transparent;
+  background-image: url(https://img.icons8.com/small/32/ffffff/share.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
 }
 
 .cover-trigger {
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
+  background: rgba(0, 0, 0, 0.25) url(../img/angryimg6.png) no-repeat;
   background-size: 100% 100%;
   display: block;
   will-change: background-color;
@@ -409,13 +436,186 @@ h2 {
   float: right;
 }
 
-h3 a:hover {
-  color: #f42;
-}
-
 /* funding */
 
 /* catalog */
+[class*=" u-col-"],
+[class^="u-col-"] {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.u-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+.catalog {
+  margin-bottom: 40px;
+}
+
+.u-col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.topic h2 {
+  margin-bottom: 14px;
+}
+
+.arrowh2-topic {
+  background-image: url(https://img.icons8.com/color/48/000000/chevron-right.png);
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
+
+.topic-popular {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.topic-popular-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.topic-popular-trigger {
+  background: transparent url(../img/angryimg6.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.topic-popular-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.topic-popular-section {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.topic-popular-title {
+  margin-bottom: 6px;
+  color: #fff;
+  padding-left: 0;
+}
+
+.topic-popular-byline {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.topic-popular-byline li {
+  display: block;
+  float: left;
+}
+
+.topic-popular-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.topic-popular-title-a {
+  color: #fff;
+}
+
+.timeago {
+  padding-left: 10px;
+}
+
+.topic-latest {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+
+.topic-latest-header {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.topic-latest-section {
+  color: #f42;
+  font-size: 13px;
+}
+
+.topic-latest-title {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.topic-latest-title-a {
+  color: #f42;
+}
+
+.topic-latest-image {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.topic-headline {
+  border-bottom: 1px solid #eee;
+}
+
+.topic-headline-title {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.topic-headline-title-a {
+  color: #aaa;
+}
+
+.dotbeofre-headline {
+  color: #f42;
+  display: inline;
+}
+
+.topic-headline h4 a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
 
 /* deals */
 
@@ -488,4 +688,14 @@ h3 a:hover {
   text-align: center;
   color: white;
   display: block;
+}
+
+/* stuff i need to put in the bottom so that linters doesn't complain */
+
+.cover-byline li:first-child {
+  margin-left: 0;
+}
+
+h3 a:hover {
+  color: #f42;
 }
