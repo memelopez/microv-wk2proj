@@ -305,12 +305,7 @@ li {
 .top-menu li {
   padding-left: 4px;
   padding-right: 4px;
-  color: hsla(0,0%,100%,.6);
-}
-
-.top-menu li:hover {
-  cursor: pointer;
-  color: white;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 @media (min-width: 760px) {
@@ -1102,4 +1097,9 @@ h3 a:hover {
 
 .story-investmentCard-bit:not(:last-child) {
   margin-bottom: 0.5em;
+}
+
+.top-menu li:hover {
+  cursor: pointer;
+  color: white;
 }
