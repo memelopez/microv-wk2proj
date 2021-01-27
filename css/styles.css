@@ -194,7 +194,6 @@ h3 {
   font-weight: 700;
   line-height: 18px;
   color: #000;
-  padding: 0 15px 0 15px;
 }
 
 h4,
@@ -495,6 +494,7 @@ h2 {
 .latest-row {
   width: 100%;
   padding: 8px 8px;
+  flex-direction: column;
 }
 
 .latest-container img {
@@ -518,6 +518,18 @@ h2 {
 .tittle-content {
   height: 100%;
   float: right;
+}
+
+.latest-text {  
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .latest-container {
+    display: grid;
+    grid-template-areas: ;
+  }
 }
 
 /* funding */
