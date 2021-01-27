@@ -171,6 +171,10 @@ h2 {
   color: white;
 }
 
+.blue {
+  color: #146ff8;
+}
+
 .orange {
   color: #f42;
 }
@@ -1040,6 +1044,18 @@ h2 {
   text-align: center;
   color: white;
   display: block;
+}
+
+/* Access icon */
+
+.access {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
 }
 
 /* stuff I need to put in the bottom so that linters doesn't complain */
