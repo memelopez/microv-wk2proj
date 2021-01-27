@@ -1060,8 +1060,17 @@ h2 {
   bottom: 0;
   right: 0;
   margin: 20px;
-  font-size: 40px;
-  color: blue;
+  height: 45px;
+  width: 45px;
+  background-image: url("/img/access.png");
+  background-color: #146ff8;
+  border-radius: 50%;
+  transition: transform 1s;
+}
+
+.access:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 /* stuff I need to put in the bottom so that linters doesn't complain */
