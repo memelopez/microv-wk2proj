@@ -305,6 +305,12 @@ li {
 .top-menu li {
   padding-left: 4px;
   padding-right: 4px;
+  color: hsla(0,0%,100%,.6);
+}
+
+.top-menu li:hover {
+  cursor: pointer;
+  color: white;
 }
 
 @media (min-width: 760px) {
