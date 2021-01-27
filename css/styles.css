@@ -242,6 +242,8 @@ summary {
   justify-content: space-between;
   height: 48px;
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
+  position: fixed;
+  z-index: 10;
 }
 
 .menu-container {
