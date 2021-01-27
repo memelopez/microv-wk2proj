@@ -215,7 +215,7 @@ h5 {
 }
 
 .maincontent {
-  padding-top: 72px;
+  padding-top: 40px;
 }
 
 article,
@@ -793,6 +793,42 @@ h2 {
   color: #aaa;
 }
 
+.last-funding {
+  display: none;
+}
+
+.links-funding-hdr {
+  display: flex;
+  flex-direction: column;
+}
+
+/* responsive funding  */
+
+@media (min-width: 768px) {
+  .links-funding-hdr {
+    flex-direction: row;
+  }
+
+  .funding-header-more {
+    margin: 0 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .last-funding {
+    display: block;
+  }
+
+  .vertical {
+    padding: 12px;
+  }
+
+  .funding-hdr {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 /* catalog */
 [class*=" u-col-"],
 [class^="u-col-"] {
@@ -970,6 +1006,35 @@ h2 {
   display: block;
   padding: 6px 0 6px 14px;
   position: relative;
+}
+
+/* responsive catalog */
+
+@media (min-width: 768px) {
+  .topic {
+    margin-bottom: 24px;
+  }
+
+  .u-col-m-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  [class*="u-col-"] {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .u-col-l-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .u-col-l-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
 }
 
 /* deals */
