@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 2: Building with responsive design. (Milestoen 1 & Milestone 2)
+# Project 2: Building with responsive design.
 
 > This project is a clone of the [The Next Web (TNW)](https://thenextweb.com/)
 
@@ -15,7 +15,7 @@ Building with responsive design.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://memelopez.github.io/microv-wk2proj/)
 
 ## Getting Started
 
