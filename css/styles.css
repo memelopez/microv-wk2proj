@@ -171,6 +171,10 @@ h2 {
   color: white;
 }
 
+.blue {
+  color: #146ff8;
+}
+
 .orange {
   color: #f42;
 }
@@ -299,6 +303,7 @@ li {
 .top-menu li {
   padding-left: 4px;
   padding-right: 4px;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 @media (min-width: 760px) {
@@ -1105,6 +1110,27 @@ h2 {
   display: block;
 }
 
+/* Access icon */
+
+.access {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  height: 45px;
+  width: 45px;
+  background-image: url("/img/access.png");
+  background-color: #146ff8;
+  border-radius: 50%;
+  transition: transform 1s;
+}
+
+.access:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 /* stuff I need to put in the bottom so that linters doesn't complain */
 
 .cover-byline li:first-child {
@@ -1134,4 +1160,9 @@ h3 a:hover {
 
 .story-investmentCard-bit:not(:last-child) {
   margin-bottom: 0.5em;
+}
+
+.top-menu li:hover {
+  cursor: pointer;
+  color: white;
 }
