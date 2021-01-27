@@ -470,6 +470,89 @@ h2 {
   z-index: 2;
 }
 
+.cover-gradient,
+.cover-logo {
+  display: none;
+}
+
+/* responsive cover */
+
+@media (min-width: 768px) {
+  .grid-cover {
+    display: grid;
+    grid-template:
+      "focal focal focal support support"
+      "focal focal focal extra extra";
+  }
+
+  .focal {
+    grid-area: focal;
+  }
+
+  .support {
+    grid-area: support;
+  }
+
+  .extra {
+    grid-area: extra;
+  }
+
+  .focal h2 {
+    font-size: 40px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .focal h2 {
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  .cover-gradient {
+    display: block;
+    background: transparent url(../img/redgradient.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4;
+  }
+
+  .cover-logo,
+  .cover-date {
+    display: block;
+    color: #fff;
+    position: absolute;
+    right: 24px;
+    z-index: 5;
+  }
+
+  .cover-logo {
+    background-color: transparent;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 24px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 24px;
+    pointer-events: none;
+    text-align: right;
+  }
+
+  .cover-date {
+    top: 16px;
+  }
+}
+
 /* latest */
 
 .latest {
