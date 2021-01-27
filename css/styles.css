@@ -217,6 +217,7 @@ h5 {
 
 .maincontent {
   padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 article,
@@ -1123,7 +1124,7 @@ h2 {
   margin: 20px;
   height: 45px;
   width: 45px;
-  background-image: url("/img/access.png");
+  background-image: url("../img/access.png");
   background-color: #146ff8;
   border-radius: 50%;
   transition: transform 1s;
