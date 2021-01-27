@@ -41,8 +41,8 @@ Most Operative Systems have the .html file extension associated to open with you
 
 👤 **Elmer Lopez**
 
-- GitHub: [@githubhandle](https://github.com/memelopez)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@memelopez](https://github.com/memelopez)
+- Twitter: [@memelopez10](https://twitter.com/memelopez10)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/elmer-lopez-51b187200/)
 
 👤 **Kenny Ortega**
@@ -63,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
