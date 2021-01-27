@@ -551,6 +551,16 @@ h2 {
   .cover-date {
     top: 16px;
   }
+
+  .support h2,
+  .extra h2 {
+    font-size: 28px;
+  }
+
+  .cover-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* latest */
