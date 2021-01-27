@@ -521,7 +521,7 @@ h2 {
   float: right;
 }
 
-.latest-text {  
+.latest-text {
   display: flex;
   flex-direction: column;
 }
@@ -529,9 +529,10 @@ h2 {
 @media (min-width: 767px) {
   .latest-container {
     display: grid;
-    grid-template-areas: "i1 i2 i3"
-                         "i4 i5 i6"
-                         "i7 i8 .";    
+    grid-template-areas:
+      "i1 i2 i3"
+      "i4 i5 i6"
+      "i7 i8 .";
   }
 
   .latest-row {
@@ -543,17 +544,16 @@ h2 {
     height: 100%;
     width: 100%;
   }
-
 }
 
 @media (min-width: 1024px) {
   .latest-container {
     display: grid;
-    grid-template-areas: "i1 i2 i3 i4"
-                         "i5 i6 i7 i8";
+    grid-template-areas:
+      "i1 i2 i3 i4"
+      "i5 i6 i7 i8";
   }
 }
-
 
 /* funding */
 
