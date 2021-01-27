@@ -190,6 +190,7 @@ h2 {
 .wrapper {
   margin: 0 auto;
   padding: 0 20px;
+  max-width: 1192px;
 }
 
 h3 {
@@ -215,7 +216,7 @@ h5 {
 }
 
 .maincontent {
-  padding-top: 40px;
+  padding-top: 90px;
 }
 
 article,
