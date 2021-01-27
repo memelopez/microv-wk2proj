@@ -235,8 +235,6 @@ summary {
 .main-nav {
   width: 100%;
   display: flex;
-  position: fixed;
-  z-index: 10;
   justify-content: space-between;
   height: 48px;
   box-shadow: 0 0 32px rgb(0 0 0 / 15%);
