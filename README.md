@@ -4,7 +4,7 @@
 
 > This project is a clone of the [The Next Web (TNW)](https://thenextweb.com/)
 
-![demo](images/screenshot.png)
+<img src="img/ScreenShot1.png" width="500">
 
 Building with responsive design.
 
@@ -29,10 +29,12 @@ To get a local copy up and running follow these simple example steps.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 Have a compatible web browser that supports HTML5 and CSS3 in order to correctly display the website.
 A text editor in order to view and edit code. Popular text editors include VSCode and Notepad++.
 
 ### Usage
+
 Most Operative Systems have the .html file extension associated to open with your default web browser. In order to review the code, you may use your web browser inspect element option or open directly with a text editor.
 
 ## Authors
@@ -42,7 +44,6 @@ Most Operative Systems have the .html file extension associated to open with you
 - GitHub: [@githubhandle](https://github.com/memelopez)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/elmer-lopez-51b187200/)
-
 
 👤 **Kenny Ortega**
 
@@ -59,7 +60,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 ## 📝 License
 
