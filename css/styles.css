@@ -160,7 +160,7 @@ ul {
 }
 
 h2 {
-  font-family: 'avalon', sans-serif;
+  font-family: "avalon", sans-serif;
   font-size: 28px;
   color: #f42;
   font-weight: 700;
@@ -282,7 +282,7 @@ summary {
 
 .bottom-menu {
   display: none;
-  font-family: 'shentox', sans-serif;
+  font-family: "shentox", sans-serif;
   color: #aaa;
   font-size: 14px;
   font-style: normal;
@@ -299,11 +299,6 @@ li {
 .top-menu li {
   padding-left: 4px;
   padding-right: 4px;
-}
-
-.bottom-menu li:hover {
-  color: #000;
-  cursor: pointer;
 }
 
 @media (min-width: 760px) {
@@ -446,14 +441,6 @@ h2 {
   display: block;
   width: 30px;
   height: 30px;
-}
-
-.cover-byline li .icon {
-  scale: 0.875;
-  float: left;
-  margin-right: 4px;
-  opacity: 0.6;
-  vertical-align: middle;
 }
 
 .icon--clock--light {
@@ -646,17 +633,8 @@ h2 {
   opacity: 0.5;
 }
 
-.story-investmentCard-header {
-  position: relative;
-  display: block;
-}
-
 .story-investmentCard-card {
   padding: 16px;
-}
-
-.story-investmentCard-bit:not(:last-child) {
-  margin-bottom: 0.5em;
 }
 
 .story-investmentCard-bit .icon {
@@ -692,13 +670,6 @@ h2 {
   line-height: 22px;
 }
 
-.story-investmentCard-bit .icon {
-  position: absolute;
-  top: 0.2em;
-  left: 0;
-  opacity: 0.9;
-}
-
 .story--investment .story-byline {
   margin-top: 0;
 }
@@ -716,10 +687,6 @@ h2 {
 .story-byline li {
   display: block;
   float: left;
-}
-
-.vertical .story-byline li a {
-  color: #555;
 }
 
 .vertical .story-title-link {
@@ -988,4 +955,25 @@ h2 {
 
 h3 a:hover {
   color: #f42;
+}
+
+.vertical .story-byline li a {
+  color: #555;
+}
+
+.bottom-menu li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.cover-byline li .icon {
+  scale: 0.875;
+  float: left;
+  margin-right: 4px;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+.story-investmentCard-bit:not(:last-child) {
+  margin-bottom: 0.5em;
 }
