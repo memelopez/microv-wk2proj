@@ -6,6 +6,10 @@
 
 <img src="img/ScreenShot1.png" width="400">
 
+<img src="img/ScreenShot-TabletView.png" width="300">
+
+
+
 Building with responsive design.
 
 ## Built With
