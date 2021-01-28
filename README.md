@@ -5,7 +5,10 @@
 > This project is a clone of the [The Next Web (TNW)](https://thenextweb.com/)
 
 <img src="img/ScreenShot1.png" width="400">
+
 <img src="img/ScreenShot-TabletView.png" width="300">
+
+
 
 Building with responsive design.
 
